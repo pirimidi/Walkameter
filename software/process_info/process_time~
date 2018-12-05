@@ -1,0 +1,23 @@
+TIME BREAK-DOWN (for 1 real cycle with 0.1% Ponceau S - red dye)
+
+*** Initialization ***
+
+11-24-09 13:31:14.583 root         WARNING  1	--> Finished system initialization - duration: 11.92 minutes
+
+*** Cycle 1 ***
+
+
+11-24-09 14:04:27.719 root         WARNING  1	--> Finished pre-washing protocol - duration: 33.13 minutes
+11-24-09 14:54:21.198 root         WARNING  1	--> Finished incorporation protocol - duration: 49.81 minutes
+11-24-09 15:49:14.238 root         WARNING  1	--> Finished capping-1 protocol - duration: 54.80 minutes
+11-24-09 16:28:20.006 root         WARNING  1	--> Finished capping-2 protocol - duration: 39.01 minutes
+11-24-09 17:56:41.595 root         WARNING  1	--> Finished cleavage protocol - duration: 88.28 minutes
+11-24-09 17:56:41.595 root         WARNING  1	--> Finished primer walking cycle - duration: 265.03 minutes
+
+*** Finalization ***
+
+11-24-09 18:00:41.595 root         WARNING  1	--> Finished system finalization - duration: 4.08 minutes
+
+*** Total process time ***
+
+11-24-09 18:00:41.596 root         WARNING  *	--> Finished primer walking - duration: 281.03 minutes

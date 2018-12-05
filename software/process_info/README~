@@ -1,0 +1,3 @@
+README [walking_rev7]
+
+This is the true implementation of micro-fluidic 'Walkameter'. The channel inlet from 'Syringe Pump 9' to 'Flowcell Inlet' was changed to 200 mm and the 'channel_volume' is set to zero, since we neglect the fluid volume from actual PDMS channel inlet to chamber. 

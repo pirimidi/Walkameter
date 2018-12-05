@@ -1,0 +1,125 @@
+#--------------------------------------------------------------------------------------#
+#				    DEVICE COMMUNICATION                               #
+#--------------------------------------------------------------------------------------#
+
+[communication]
+
+serial_port = /dev/ttyS0
+timeout = 0.05
+
+read_length = 1024
+sleep_time = 0.01
+syringe_pump_baud = 9600 
+
+home_dir = /home/pirimidi/Desktop/walking_software/revisions/walking_rev7/
+log_dir = /home/pirimidi/Desktop/walking_software/revisions/walking_rev7/process_logs/
+cfg_dir = /home/pirimidi/Desktop/walking_software/revisions/walking_rev7/config_logs/
+
+log_option = 1
+speech_option = 1
+
+#--------------------------------------------------------------------------------------#
+#			           TUBING CONFIGURATION                                #
+#--------------------------------------------------------------------------------------#
+
+[tube_constants]
+
+channel_volume = 0 
+flowcell_volume = 10
+dead_volume = 8
+
+excel_file = walking_tube_volumes.xls
+
+#--------------------------------------------------------------------------------------#
+#				   SYRINGE CONFIGURATION                               #
+#--------------------------------------------------------------------------------------#
+
+[syringe_constants]
+
+full_stroke = 100
+clean_stroke = 200
+
+clean_speed = 17
+reagent_speed = 40
+load_speed = 27
+empty_speed = 34
+final_push_speed = 15
+
+#--------------------------------------------------------------------------------------#
+#                               COMMON BIOCHEM. PARAMETER(S)			       #
+#--------------------------------------------------------------------------------------#
+
+[biochem_parameters]
+
+air_gap = 10
+time_limit = 10
+slow_push_volume = 30
+preparation_time = 2
+
+#--------------------------------------------------------------------------------------#
+#                               INCROPORATION PARAMETER(S)			       #
+#--------------------------------------------------------------------------------------#
+
+[incorporation_parameters]
+
+incorporation_volume = 30
+
+i_nucleotide_volume = 7
+i_buffer_volume = 7
+i_Mn_volume = 7
+i_9N_volume = 9
+
+incorporation_time = 20
+incorporation_temp = 55
+
+#--------------------------------------------------------------------------------------#
+#                                 CAPPING1 PARAMETER(S)		    	               #
+#--------------------------------------------------------------------------------------#
+
+[capping1_parameters]
+
+capping1_volume = 30
+
+c1_nucleotide_volume = 7
+c1_buffer_volume = 7
+c1_Mn_volume = 7
+c1_9N_volume = 9
+
+capping1_time = 25
+capping1_temp = 55
+
+#--------------------------------------------------------------------------------------#
+#                                 CAPPING2 PARAMETER(S)			               #
+#--------------------------------------------------------------------------------------#
+
+[capping2_parameters]
+
+capping2_volume = 30
+
+c2_nucleotide_volume = 7
+c2_buffer_volume = 7
+c2_Mn_volume = 7
+c2_9N_volume = 9
+
+capping2_time = 5
+capping2_temp = 55
+
+#--------------------------------------------------------------------------------------#
+#                                 CLEAVAGE PARAMETER(S) 			       #
+#--------------------------------------------------------------------------------------#
+
+[cleavage_parameters]
+
+cleavage_volume = 50
+
+cleavage_time = 15
+cleavage_iter = 2
+
+#--------------------------------------------------------------------------------------#
+#                                   CYCLE CONSTANTS	     	                       #
+#--------------------------------------------------------------------------------------#
+
+[cycle_constants]
+
+cycle_iter = 1
+
